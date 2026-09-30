@@ -1,0 +1,18 @@
+# Крупные модели голосов — скачиваются отдельно
+voices/*.onnx
+voices/*.onnx.partial
+voices/*.partial
+
+# Локальные настройки пользователя
+voice.conf
+speed.conf
+
+# Python / мусор
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+
+# Временные файлы runtime (на всякий случай)
+*.wav
+*.sock
